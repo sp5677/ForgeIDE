@@ -38,19 +38,6 @@ We have a number of resources such as [examples](https://github.com/raspberrypif
 
 Want to make Blockly better? We welcome contributions to Blockly in the form of pull requests, bug reports, documentation, answers on the forum, and more! Check out our [Contributing Guidelines](https://developers.google.com/blockly/guides/modify/contributing) for more information. You might also want to look for issues tagged "[Help Wanted](https://github.com/raspberrypifoundation/blockly/labels/help%20wanted)" which are issues we think would be great for external contributors to help with.
 
-## Releases
-
-We release new versions on npm and GitHub releases, and then update our [docs](https://developers.google.com/blockly) and [demo pages](https://raspberrypifoundation.github.io/blockly-samples/). If there are breaking regressions, such as a crash when performing a standard action or a rendering issue that makes Blockly unusable, we will cherry-pick fixes into patch releases. The [releases page](https://github.com/raspberrypifoundation/blockly/releases) has a list of all releases.
-
-We use [semantic versioning](https://semver.org/). Releases that have breaking changes or are otherwise not backwards compatible will have a new major version. Patch versions are reserved for bug-fix patches between scheduled releases.
-
-We now have a [beta release on npm](https://www.npmjs.com/package/blockly?activeTab=versions). If you'd like to test the upcoming release, or try out a not-yet-released new API, you can use the beta channel with:
-
-```bash
-npm install blockly@beta
-```
-
-As it is a beta channel, it may be less stable, and the APIs there are subject to change.
 
 ### Branches
 
